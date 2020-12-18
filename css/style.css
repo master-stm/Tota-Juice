@@ -170,44 +170,32 @@ img {
 	overflow: hidden;
 	padding: 0;
 }
-#body.home div.body div div {
+#en {
 	float: left;
 	margin: 0;
 	padding: 0 .2em 40px;
-	width: 560px;
+	width: 30%;
 }
-#body.home div.body div img {
-	display: block;
-	float: right;
-	left: 0;
-	top: 40px;
-	right: 10px;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	width: auto;
-	height: 35vh;
-	
-}
-#body.home div.body div div h1 {
+
+#en h1 {
 	color: #7A6666;
 	display: block;
 	font-family: 'Langar', cursive;
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 24px;
 	margin: 0;
-	padding: 47px 0 18px;
+	padding: 1.2em 0 18px;
 	text-align: left;
 	text-transform: uppercase;
 	width: 560px;
 }
-#body.home div.body div div h2 {
+#en h2 {
 	color: #d08752;
 	display: block;
 	font-family: 'Source Sans Pro', sans-serif;;
-	font-size: 30px;
-	font-weight: normal;
+	font-size: 1.8em;
+	font-weight: bolder;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 26px;
@@ -215,11 +203,11 @@ img {
 	text-transform: none;
 	width: 560px;
 }
-#body.home div.body div div p {
+#en p {
 	color: #7a6666;
 	display: block;
 	font-family: 'Langar', cursive;
-	font-size: 14px;
+	font-size: 1.2em;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
@@ -227,9 +215,9 @@ img {
 	text-align: left;
 	width: 560px;
 }
-#body.home div.body div div p a {
+#en p a {
 	color: #d08752;
-	display: block;
+	display: inline;
 	font-family: roboto-regular-webfont;
 	font-size: 16px;
 	font-weight: normal;
@@ -239,7 +227,68 @@ img {
 	font-weight: 600;
 	text-decoration: none;
 }
-#body.home div.body div div p a:hover {
+#en p a:hover {
+	color: #eeebec;
+}
+#ar {
+	direction: rtl;
+	float: right;
+	margin: 0;
+	padding: 0 .2em 40px;
+	width: 30%;
+}
+
+#ar h1 {
+	color: #7A6666;
+	display: block;
+	font-family: 'Langar', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	margin: 0;
+	padding: 1.2em 0 18px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 560px;
+}
+#ar h2 {
+	color: #d08752;
+	display: block;
+	font-family: 'Source Sans Pro', sans-serif;;
+	font-size: 1.8em;
+	font-weight: bolder;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 26px;
+	text-align: right;
+	text-transform: none;
+	width: 560px;
+}
+#ar p {
+	color: #7a6666;
+	display: block;
+	font-family: 'Langar', cursive;
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	width: 560px;
+}
+#ar p a {
+	color: #d08752;
+	display: inline;
+	font-family: roboto-regular-webfont;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	text-decoration: none;
+}
+#ar p a:hover {
 	color: #eeebec;
 }
 #body.home div.footer {

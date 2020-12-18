@@ -157,10 +157,7 @@
 	
 }
 	@media only screen and (max-width : 918px) {
-	#body{
-	}
-	#body.home {
-	}
+	
 	#body div.blog, #body div.singlepost {
 		margin: 0;
 		max-width: none;
@@ -195,6 +192,7 @@
 		margin: 0 auto;
 		max-width: none;
 		width: 90%;
+		margin-bottom: 1.5em;
 	}
 	#body.home div.body div div {
 		float: none;
