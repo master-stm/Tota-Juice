@@ -113,13 +113,17 @@ img {
 }
 .carousel-image{
 	height: 75vh;
-	display: block;
+	display: none;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .my-slider{
 	list-style-type: none;
+}
+
+#carousel-div{
+	height: 0;
 }
 
 @keyframes slide{
